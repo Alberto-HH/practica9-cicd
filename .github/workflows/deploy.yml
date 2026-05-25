@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Mostrar archivos
-      -  run: ls -la
+        run: ls -la
 
       - name: Detener contenedor anterior
         run: |
